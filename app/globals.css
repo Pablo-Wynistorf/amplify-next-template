@@ -15,8 +15,9 @@ body {
 body {
   min-height: 100vh;
   min-width: 100vw;
-  background-color: #f8fafc;
-  color: #111827;
+  background-color: #0b1120;
+  color: #0f172a;
+  overflow: hidden;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
 }
