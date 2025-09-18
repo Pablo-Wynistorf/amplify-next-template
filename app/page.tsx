@@ -10,10 +10,9 @@ export default function Home() {
         aria-hidden="true"
       />
       <div className={styles.title}>
-        <h1>Interactive Gradient Background</h1>
+        <h1>SwissSkills 2025 Demo</h1>
         <p>
-          A shimmering, ever-changing gradient rendered in WebGL. Sit back and
-          enjoy the ambient motion.
+          Demo für den Cloud Computing Skill an den SwissSkills 2025 in Bern!
         </p>
       </div>
       <Script src="/gradient.js" strategy="afterInteractive" />
