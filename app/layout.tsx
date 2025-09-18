@@ -5,8 +5,9 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Interactive Gradient Background",
-  description: "Immersive animated gradient landing experience.",
+  title: "Anzahl Besucher",
+  description:
+    "Übersicht über die Anzahl der aufgezeichneten Seitenaufrufe.",
 };
 
 export default function RootLayout({
@@ -15,7 +16,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="de">
       <body className={inter.className}>{children}</body>
     </html>
   );
